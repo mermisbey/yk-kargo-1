@@ -1,0 +1,139 @@
+body {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 20px !important;
+    color: #0a4b78;
+}
+
+
+.page {
+    width: 14.8cm;
+    min-height: 10.5cm;
+    margin: auto;
+}
+
+
+
+.label-info {
+    position: relative;
+    overflow: hidden;
+    height: 9.5cm;
+    background-color: aliceblue;
+    page-break-after: always;
+    border-bottom: 1px solid #fff;
+}
+
+.shipment-address {
+    width: 70%;
+    height: 5cm;
+    margin-top: 1cm;
+    display: flex;
+    align-items: flex-start;
+}
+
+.shipment-address .inner {
+    border: 1px solid #000;
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.kargo-logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 140px!important;
+}
+.barkod-resim {
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg);
+    transform-origin: left top 20;
+    margin-right: -100px;
+    top: 140px;
+}
+
+.app-barcode span{
+    text-align: center;
+    transform: rotate(270deg);
+    transform-origin: left top 20;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+    right: 50px;
+}
+.label-info .info-header {
+    display: block;
+}
+.shipment-barcode {
+    height: 3.3cm;
+
+}
+
+.label-info .info-header .shipment-address, .label-info .info-header .shipment-barcode {
+    float: left;
+
+}
+.label-info .info-header .shipment-address .inner {
+    margin-right: 10px;
+}
+.label-info .info-header .shipment-address .inner, .label-info .info-header .shipment-barcode .inner {
+    overflow-y: hidden;
+    padding: 15px;
+    height: 100%;
+    border-radius: 8px;
+}
+.label-info .info-header .shipment-address .header, .label-info .info-header .shipment-barcode .header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #343d4c;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+.table {
+    position: relative;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.table {
+    position: relative;
+}
+
+.table tr td:first-child{
+    display: none;
+}
+
+.table tr:first-child{
+    display: none;
+}
+
+
+.barkod {
+    display: flex;
+    align-items: center;
+}
+.wp-die-message {
+    display: none!important;
+}
+#wpbody-content {
+    padding-bottom: 0!important;
+}
+

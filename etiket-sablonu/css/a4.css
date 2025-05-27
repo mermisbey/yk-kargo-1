@@ -1,0 +1,102 @@
+body {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 20px !important;
+    color: #0a4b78;
+}
+
+
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: auto;
+    background: white!important;
+}
+
+
+.break {
+    page-break-before: always;
+}
+
+.label-info .info-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2.8cm;
+    height: 7cm;
+}
+.label-info .info-header .shipment-address, .label-info .info-header .shipment-barcode {
+    width: 50%;
+}
+.label-info .info-header .shipment-address .inner {
+    margin-right: 10px;
+}
+.label-info .info-header .shipment-address .inner, .label-info .info-header .shipment-barcode .inner {
+    overflow-y: hidden;
+    padding: 15px;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #a7afbc;
+    background-color: aliceblue;
+}
+.label-info .info-header .shipment-address .header, .label-info .info-header .shipment-barcode .header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #343d4c;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+.table {
+    position: relative;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.table {
+    position: relative;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.app-barcode {
+    text-align: center;
+}
+.app-barcode span{
+    display: block;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 0.3cm;
+}
+
+.kargo-logo {
+    margin-bottom: 0.3cm;
+}
+.barkod {
+    display: flex;
+    align-items: center;
+}
+
+.wp-die-message {
+    display: none!important;
+}
+#wpbody-content {
+    padding-bottom: 0!important;
+}

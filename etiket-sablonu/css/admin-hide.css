@@ -1,0 +1,14 @@
+body {
+    background-color: #fff;
+}
+#wpadminbar, #adminmenuwrap, #adminmenuback {
+    display: none;
+}
+
+#wpcontent, #wpfooter {
+    margin-left: 0!important;
+}
+
+html.wp-toolbar {
+    padding-top: 5px!important;
+}

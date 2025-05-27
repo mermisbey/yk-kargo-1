@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-height: 20px !important;
+    color: #0a4b78;
+}
+
+
+.page {
+    width: 7.4cm;
+    min-height: 10.5cm;
+    margin: auto;
+}
+
+
+.break {
+    page-break-before: always;
+}
+
+
+.label-info {
+    position: relative;
+    overflow: hidden;
+    height: 10.5cm;
+    border-bottom: 1px solid #fff;
+    background-color: aliceblue;
+}
+
+.shipment-address {
+    height: 6.7cm;
+    position: absolute;
+    top: 4cm;
+}
+
+.kargo-logo {
+    width: 140px!important;
+}
+.barkod-resim {
+    margin: 0.3cm 0;
+    width: 6cm;
+}
+.label-info .info-header {
+    display: block;
+}
+.shipment-barcode {
+    height: 3.3cm;
+    position: absolute;
+    top: 0;
+}
+.info-header {
+    page-break-before: always;
+}
+.label-info .info-header .shipment-address, .label-info .info-header .shipment-barcode {
+    width: 100%;
+}
+.label-info .info-header .shipment-address .inner {
+    margin-right: 10px;
+}
+.label-info .info-header .shipment-address .inner, .label-info .info-header .shipment-barcode .inner {
+    overflow-y: hidden;
+    padding: 15px;
+    height: 100%;
+    border-radius: 8px;
+}
+.label-info .info-header .shipment-address .header, .label-info .info-header .shipment-barcode .header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #343d4c;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+.table {
+    position: relative;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.table {
+    position: relative;
+}
+
+.table tr td:first-child{
+    display: none;
+}
+
+.table tr:first-child{
+    display: none;
+}
+
+.app-barcode {
+    text-align: center;
+}
+
+.barkod {
+    display: flex;
+    align-items: center;
+}
+.wp-die-message {
+    display: none!important;
+}
+#wpbody-content {
+    padding-bottom: 0!important;
+}
